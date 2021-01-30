@@ -1,0 +1,12 @@
+<?php
+
+// How to set cookies
+setcookie('key', 'value', time()+60);
+//syntax: setcookie(name, value, expiration time);
+
+// How to update cookie
+setcookie('key', 'value [update]', time() + 3600);
+
+// How to delete cookie
+setcookie('key', '', time() - 1); 
+
